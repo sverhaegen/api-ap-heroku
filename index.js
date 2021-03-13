@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://heuristic-curie-65d4b0.netlify.app'
+        origin: 'http://localhost:3000/'
     })
 );
 app.options('*', cors());
